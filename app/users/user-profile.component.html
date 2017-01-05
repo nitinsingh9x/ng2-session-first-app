@@ -1,0 +1,5 @@
+<div class="jumbotron" *ngIf="user">
+    <h1>Welcome to our app!</h1>
+    <h2>{{user.name}}</h2><small>{{user.username}}</small>
+    <input type="text" [(ngModel)]="user.name">
+</div>
